@@ -1,0 +1,29 @@
+{
+  "name": "fi-planner",
+  "version": "1.0.0",
+  "description": "Playing with financial retirement scripts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyTee81/fi-planner.git"
+  },
+  "keywords": [
+    "finance",
+    "retirement",
+    "calculator"
+  ],
+  "author": "Jonny Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyTee81/fi-planner/issues"
+  },
+  "homepage": "https://github.com/JonnyTee81/fi-planner#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
