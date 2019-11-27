@@ -10,7 +10,7 @@ describe('Finance', () => {
       assert.equal(app.getTargetRetirementAmount(100000), 2500000);
     });
 
-    it('Should return a future value (FV) of $1,123', () => {
+    it('Should return a future value (FV) of $1,123 after 2 years with a present value of $1000, yearly deposit of $10 and 5% interest rate', () => {
       assert.equal(
         app.getFutureValueWithYearlyDeposit(1000, 10, 0.05, 2),
         1123
